@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Frank - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/command-palette.css">
+    <link rel="stylesheet" href="css/project.css">
+    <script src="js/command-palette.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="img/me3.jpg" alt="Frank Cairampoma" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <h1 class="name">A. Frank Cairampoma</h1>
+                <p class="subtitle">Senior Full Stack & Mobile Developer</p>
+                <a href="#" class="github-link">React • Node.js • Php • TypeScript</a>
+                <p class="github-user">iOS & Android (React Native - Flutter)</p>
+                
+                <div class="social-icons">
+                    <a href="mailto:frank.cairampoma@developer.com" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="tel:+51987654321" aria-label="Teléfono">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/fralch/" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/fralch" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://portfolio.frankcairampoma.dev" aria-label="Portfolio Website">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="download-buttons">
+                    <a href="files/FrankCairampoma_Resume.pdf" class="btn">Download Resume PDF</a>
+                    <a href="https://github.com/fralch" class="btn">View GitHub Profile</a>
+                    <a href="https://github.com/fralch" class="btn">ChatGPT - Ask Me Anything</a>
+                </div>
+            </div>
+            
+            <div class="footer-note">
+                Pulsa  <a href="#">Cmd + K </a> para abrir la paleta de comandos.<br><br>
+                Hosted on GitHub Pages — by <a href="https://github.com/fralch">Fralch</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="title-section">
+                <h1 style="font-size: 32px; ">Full Stack Developer</h1>
+                    <p style="font-size: 18px; color: #64b5f6; margin-bottom: 10px;">Mobile Developer</p>
+                    <div class="skills">
+                        <p class="skills-text"><strong>Habilidades:</strong></p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node</span>
+                            <span class="skill-tag">Tailwind</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Laravel</span>
+                            <span class="skill-tag">Nest.Js</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">GraphQL</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>     
+                    </div>
+            </div>
+
+            
+
+            <!-- Work Experience Section -->
+            <div class="section">
+                <h2 class="section-title">Experiencia laboral</h2>
+                
+                <div class="experience-item">
+                    <div class="job-title">App Developer & Full Stack Developer @ Credipyme Solución. <spa class="date">(Mar 2020 - May 2025)</span></div>
+                    <ul class="job-description">
+                        <li>Lideré el desarrollo de aplicaciones móviles (React Native) y sistemas web (Laravel, VueJS).</li>
+                        <li>Utilicé GitHub para una gestión eficiente del código y la colaboración en equipo.</li>
+                        <li>Mantuve sistemas web con MySQL, asegurando una gestión eficiente de los datos.</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="job-title">Senior Full-Stack Developer @ MegaEquipamiento. <span class="date">(Dic 2024 - May 2025)</span></div>
+                    <ul class="job-description">
+                        <li>Desarrollo de una plataforma web de comercio electrónico para la venta de equipos de laboratorio.</li>
+                        <li>Diseñé y desarrollé un sistema eCommerce completo utilizando React para el frontend, creando una experiencia de usuario
+                            moderna, rápida y responsiva.</li>
+                        <li>Implementé funcionalidades avanzadas como catálogo filtrable, comparación de productos, carrito de compras persistente,
+                            sistema de reseñas y pasarela de pago.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Android & iOS Developer @ Villding <span class="date">(Ago 2024 - May 2025)</span></div>
+                    <ul class="job-description">
+                        <li>Desarrollé una aplicación para Android e iOS utilizando React Native con Expo y TypeScript, enfocada en la usabilidad,
+                            sincronización offline y rendimiento.</li>
+                        <li>Implementé interfaces modulares, navegación compleja con React Navigation y manejo de estado con Context API.</li>
+                        <li>Construí el backend completo con Laravel, incluyendo endpoints RESTful, autenticación con tokens JWT, manejo de archivos
+                            (imágenes, documentos) y relaciones avanzadas en base de datos.</li>
+                        <li>Utilicé AsyncStorage y SQLite para almacenamiento local, asegurando la funcionalidad de la app en entornos sin conexión.</li>
+                        <li>Integré notificaciones push, carga de imágenes desde la galería y cámara, y validación de formularios dinámicos.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Full-Stack Developer @ Outbox USA <span class="date">(Set 2024 - Ene 2025)</span></div>
+                    <ul class="job-description">
+                        <li>Participación en múltiples proyectos web y móviles para clientes internacionales, enfocados en soluciones escalables.</li>
+                        <li>Desarrollé interfaces móviles nativas e híbridas utilizando Flutter y React Native, priorizando rendimiento y usabilidad en
+                            distintos dispositivos.</li>
+                        <li>Implementé APIs eficientes con FastAPI, aprovechando sus ventajas asincrónicas y tipado estático para lograr endpoints.</li>
+                        <li>Integración de sistemas distribuidos con Apache Kafka para manejar flujos de datos en tiempo real y garantizar la
+                            comunicación entre microservicios.</li>
+                        <li>Construí módulos web responsivos y reutilizables en React, siguiendo prácticas de desarrollo moderno con hooks,
+                            context API y pruebas unitarias.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Full-Stack Developer @ Supera Abogados <span class="date">(Ene 2024 - Jul 2024)</span></div>
+                    <ul class="job-description">
+                        <li>Desarrollo de un sistema integral de gestión documentaria para el control legal y administrativo.</li>
+                        <li>Implementé una plataforma moderna con Astro.js para una experiencia frontend optimizada, integrada con React
+                            para componentes interactivos.</li>
+                        <li>Desarrollé un backend robusto y escalable utilizando NestJS, aplicando principios de arquitectura limpia y
+                            programación orientada a eventos.</li>
+                        <li>Diseñé y ejecuté un sistema de autenticación segura con JWT y control de acceso basado en roles (RBAC) para
+                            proteger documentos confidenciales.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Full-Stack Developer @ Zgroup <span class="date">(Ene 2022 - Ene 2023)</span></div>
+                    <ul class="job-description">
+                        <li>Sistema desarrollado para la geolocalización en tiempo real de contenedores de refrigeración.</li>
+                        <li>Desarrollé una plataforma completa usando Laravel (backend), Vue.js (frontend), MySQL y Redis para el rastreo y visualización
+                            en tiempo real de contenedores refrigerados.</li>
+                        <li>Implementé comunicación eficiente entre servicios para recibir, almacenar y mostrar datos de ubicación GPS con alta
+                            disponibilidad y bajo tiempo de respuesta.</li>
+                        <li>Optimicé el sistema para soportar múltiples conexiones simultáneas, garantizando precisión y rendimiento con Redis para el
+                            manejo de datos en caché.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Web Developer @ Tecsup <span class="date">(Oct 2019 - Oct 2021)</span></div> 
+                    <ul class="job-description">
+                        <li>Microservicios implementados y mantenidos con éxito, mejorando la funcionalidad general de la plataforma.</li>
+                        <li>Desempeñó un papel fundamental en el aprovechamiento de los servicios en la nube de AWS para lograr una infraestructura
+                            backend eficaz.</li>
+                        <li>Contribuí a la mejora continua de la plataforma de e-learning de TECSUP.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Arduino Developer @ Sollertia <span class="date">(Ene 2019 - Set 2019)</span></div>  
+                    <ul class="job-description">
+                        <li>Sollertia una organización especializada en investigación rural</li>
+                        <li>Desarrollé e implementé con éxito soluciones basadas en Arduino diseñadas para abordar necesidades específicas en áreas
+                            rurales.</li>
+                        <li>Desempeñó un papel vital en el aprovechamiento de la tecnología para la investigación y el desarrollo, contribuyendo a la
+                            misión de la organización en el empoderamiento rural.</li>
+                    </ul>
+                </div>
+            </div>
+                <!-- Education Section -->
+            <div class="section">
+                <h2 class="section-title">Educación</h2>       
+                <div class="education-item">
+                    <div class="degree">Ingenieria de Sistemas</div>
+                    <div class="institution">Universidad Continental de Perú <span class="date">(Jun 2010- Oct 2016)</span></div>
+                </div>              
+            </div>
+           
+            <!-- Projects Section -->
+            <div class="section">
+                <h2 class="section-title">Proyectos</h2>
+                
+                <div class="projects-grid">
+                    <!-- CreditApp Mobile -->
+                    <div class="project-card">
+                        <a href="https://crediapp.credipyme.com.pe/" class="project-title" target="_blank" >CrediApp</a>
+                        <p class="project-description">
+                            Aplicación móvil para gestión de créditos y préstamos, con modulos de logistica, recursos humanos, facturación,
+                            pagos, etc.
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">Vue + Laravel</div>
+                            <div class="project-stat">Authentication</div>
+                            <div class="project-stat">MySQL + Redis</div>
+                        </div>
+                      
+                    </div>
+                    
+                    <!-- LabStore eCommerce -->
+                    <div class="project-card">
+                        <a href="https://equipamientoindustriales.hpservidor.com/" class="project-title" target="_blank">MegaEquipamiento eCommerce </a>
+                        <p class="project-description">
+                            Plataforma completa de comercio electrónico para equipos de laboratorio con sistema de comparación y reviews
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">React + TypeScript</div>
+                            <div class="project-stat">Sistema de pagos integrado</div>
+                            <div class="project-stat">Catálogo filtrable avanzado</div>
+                        </div>
+                        <div class="project-tags">
+                            <a href="https://github.com/fralch/megaEquipamiento" class="project-tag" target="_blank">
+                                <span class="github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Villding Multi-Platform -->
+                    <div class="project-card">
+                        <a href="https://expo.dev/artifacts/eas/cQo6xn58rXNU7ygnQtnaeh.apk" class="project-title">Villding Multi-Platform</a>
+                        <p class="project-description">
+                            App híbrida con funcionalidades offline, manejo de archivos multimedia y notificaciones push en tiempo real
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">React Native + Expo</div>
+                            <div class="project-stat">AsyncStorage + SQLite</div>
+                            <div class="project-stat">Laravel Backend</div>
+                        </div>
+                        <div class="project-tags">
+                            <a href="https://github.com/fralch/Villding" class="project-tag" target="_blank">
+                                <span class="github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Legal Document Manager -->
+                    <div class="project-card">
+                        <a href="https://docmanager.frankcairampoma.dev" class="project-title">Legal DocManager</a>
+                        <p class="project-description">
+                            Sistema integral de gestión documentaria con control de acceso basado en roles y encriptación end-to-end
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">Astro.js + React</div>
+                            <div class="project-stat">NestJS + PostgreSQL</div>
+                            <div class="project-stat">RBAC Security</div>
+                        </div>
+                        <div class="project-tags">
+                            <a href="https://github.com/fralch" class="project-tag">
+                                <span class="github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Container GPS Tracker -->
+                    <div class="project-card">
+                        <a href="https://containertracker.frankcairampoma.dev" class="project-title">ContainerTracker GPS</a>
+                        <p class="project-description">
+                            Sistema de geolocalización en tiempo real para contenedores refrigerados con alertas y monitoreo 24/7
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">Laravel + Vue.js</div>
+                            <div class="project-stat">MySQL + Redis Cache</div>
+                            <div class="project-stat">Real-time GPS tracking</div>
+                        </div>
+                        <div class="project-tags">
+                            <a href="https://github.com/fralch" class="project-tag">
+                                <span class="github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- IoT Rural Solutions -->
+                    <div class="project-card">
+                        <a href="https://iot.frankcairampoma.dev" class="project-title">IoT Rural Solutions</a>
+                        <p class="project-description">
+                            Soluciones IoT basadas en Arduino para monitoreo agrícola y medición ambiental en zonas rurales
+                        </p>
+                        <div class="project-stats">
+                            <div class="project-stat">Arduino + C++</div>
+                            <div class="project-stat">Sensores ambientales</div>
+                            <div class="project-stat">Conectividad LoRaWAN</div>
+                        </div>
+                        <div class="project-tags">
+                            <a href="https://github.com/fralch" class="project-tag">
+                                <span class="github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+    </div>
+    
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="theme-icon">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" id="moon-icon" style="display:none;"></path>
+            <circle cx="12" cy="12" r="5" id="sun-icon"></circle>
+            <line x1="12" y1="1" x2="12" y2="3" id="sun-icon-ray1"></line>
+            <line x1="12" y1="21" x2="12" y2="23" id="sun-icon-ray2"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" id="sun-icon-ray3"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" id="sun-icon-ray4"></line>
+            <line x1="1" y1="12" x2="3" y2="12" id="sun-icon-ray5"></line>
+            <line x1="21" y1="12" x2="23" y2="12" id="sun-icon-ray6"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" id="sun-icon-ray7"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" id="sun-icon-ray8"></line>
+        </svg>
+    </button>
+    
+    <!-- Command Palette Dialog -->
+    <dialog class="command-palette" id="command-palette">
+        <div class="command-palette-header">
+            <input type="text" class="command-palette-search" placeholder="Buscar comando..." id="command-search">
+        </div>
+        <div class="command-list-container">
+            <div class="command-section">
+                <h3 class="command-section-title">Acciones</h3>
+                <ul class="command-list">
+                    <li class="command-item" data-action="print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                        Imprimir
+                        <span class="command-item-shortcut">Ctrl + P</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="command-section">
+                <h3 class="command-section-title">Social</h3>
+                <ul class="command-list">
+                    <li class="command-item" data-action="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        Visitar LinkedIn
+                        <span class="command-item-shortcut">Ctrl + L</span>
+                    </li>
+                    <li class="command-item" data-action="github">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        Visitar GitHub
+                        <span class="command-item-shortcut">Ctrl + G</span>
+                    </li>
+                    <li class="command-item" data-action="x">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                        Visitar X
+                        <span class="command-item-shortcut">Ctrl + X</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </dialog>
+    
+    <div id="projectModal" class="project-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle" style="margin: 0; color: var(--text-primary, #fff);">Detalles del Proyecto</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <a id="modalProjectTitle" class="modal-project-title" href="#" target="_blank"></a>
+                <p id="modalProjectDescription" class="modal-project-description"></p>
+                
+                <div class="modal-project-details">
+                    <h4>Características principales:</h4>
+                    <ul id="modalProjectFeatures"></ul>
+                </div>
+    
+                <div class="modal-tech-stack">
+                    <h4>Stack tecnológico:</h4>
+                    <div id="modalTechTags" class="modal-tech-tags"></div>
+                </div>
+    
+                <div id="modalProjectStats" class="modal-project-stats"></div>
+                
+                <div id="modalProjectLinks" class="modal-project-links"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/project.js"></script>
+  
+        
+</body>
+</html>
